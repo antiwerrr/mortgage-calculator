@@ -1,0 +1,42 @@
+KJE.sEmailFooter = "\n\n-------------------------------------------------------------\n www.dinkytown.net\n-------------------------------------------------------------\n"
+//
+// Examples below can be uncommented and changed to modify your calculator deployment
+// IMPORTANT: Do Not Modify the KJE.js file!  The KJE.js file is replaced during the update process
+// All JS customization must be done in this file a calculators specific Parameter file (that end in Params.js.)
+//
+// For information on customizing this file please see:
+// https://www.dinkytown.net/money/V3customize.html
+//
+// Graph fonts, colors and heights
+//KJE.gFont           = ["Arial","Arial","Arial"];
+//KJE.gFontStyle      = ["bold","bold",""];
+//KJE.gFontSize       = [13,10,10];
+//KJE.gHeight               = 250;
+//KJE.gHeightReport         = 350;
+//KJE.gColorBackground      ="#FFFFFF";
+//KJE.gColorForeground      ="#000000";
+//KJE.gColorGrid            ="#BBBBBB";
+//KJE.gColorGridBackground1 ="#FFFFFF";
+//KJE.gColorGridBackground2 ="#CCCCCC";
+//KJE.gColorAxisLine        ="#666666";
+//KJE.gColorText            ="#000000";
+
+// Calculator backgrounds and colors
+//KJE.gColorList            = ["#000055","#246C9D","#64A650","#FFF200","#5f007f","#F15A22","#B72467","#6DC8BF","#FF0000","#ff00ff","#ffff00","#00ffff","#7f007f","#7f0000","#007f7f","#0000ff","#00c8ff","#60ffff","#bfffbf","#ffff90","#a0c8ef"];
+//KJE.colorList             =["","#dfe0db","#DDDDDD","#CCCCCC","#CCDDCC","#CCCCDD","#DDCCCC","#CCCCDD","#CCDDCC","#CCDDDD","#CCCCDD"];
+
+// Sample Report Header and Footer Information
+//KJE.ReportHeader="<div class='KJEReportTitleBlock'><div class='KJEReportTitle'>**REPORT_TITLE**</div>**V3HEADERDATA**</div>";
+//KJE.ReportFooter="<div class=KJECenter><p class='KJEReportFooter KJECenter'>					  					<div class=KJEFooterBig>The Best Financial Calculators Anywhere!</div>  					<strong>  						&copy; 1998-2024 KJE Computer Solutions, Inc.  					</strong>  					<br/>  					Financial Calculators at https://www.dinkytown.net  					<br/>  					(612) 331-2291   					<br/>  					1730 New Brighton Blvd. PMB #111  					<br/>  					Minneapolis, MN 55413  					<p class=footer>  					Information and interactive calculators are made available to you as self-help tools for your independent use and are not intended to provide investment advice. We cannot and do not guarantee their applicability or accuracy in regards to your individual circumstances. All examples are hypothetical and are for illustrative purposes.  We encourage you to seek personalized advice from qualified professionals regarding all personal finance issues.  										<br>  					<br></p></div><!--EXTRA_FOOTER-->";
+
+KJE.InlineDefinitions=true;
+KJE.sEmailFooter = "\n\n-------------------------------------------------------------\nKJE Computer Solutions, Inc https://www.dinkytown.net\n-------------------------------------------------------------\n"
+KJE.sEmailFooter = "\n\n-------------------------------------------------------------\n https://www.dinkytown.net\n-------------------------------------------------------------\n"
+KJE.ReportHeader="<center><hr class='DinkytownHRHeaderTop'><div class=DinkytownReportHeader ><div class='banner_title'><span class='banner_content'><img src='logoleft.png' class='DinkytownScene'></span>DINKYTOWN.NET Financial Calculators<span class='print_banner_content'><img src='logoright.png' class='DinkytownScene'></span></div><span class='banner_content'><span class='KJEBold'>The Best Financial Calculators Anywhere!</span><br>**CURRENT_DATE**</span><hr class='DinkytownHRHeaderBottom'><h1 class='KJEReportHeader DinkytownReportTitle'>**REPORT_TITLE**</h1></div></center>";
+
+if (KJE.lang=="SP"){
+KJE.ReportHeader="<center><hr class='DinkytownHRHeaderTop'><div class=DinkytownReportHeader ><div class='banner_title'><span class='banner_content'><img src='logoleft.png' class='DinkytownScene'></span>DINKYTOWN.NET Las Calculadoras Financieras<span class='print_banner_content'><img src='logoright.png' class='DinkytownScene'></span></div><span class='banner_content'><span class='KJEBold'>&iexcl;Las mejores calculadoras financieras en cualquier lugar!</span><br>**CURRENT_DATE**</span><hr class='DinkytownHRHeaderBottom'><h1 class='KJEReportHeader DinkytownReportTitle'>**REPORT_TITLE**</h1></div></center>";
+}
+else if (KJE.lang=="FR") {
+KJE.ReportHeader="<center><hr class='DinkytownHRHeaderTop'><div class=DinkytownReportHeader ><div class='banner_title'><span class='banner_content'><img src='logoleft.png' class='DinkytownScene' ></span>DINKYTOWN.NET Calculatrices financi&egrave;res<span class='print_banner_content'><img src='logoright.png' class='DinkytownScene'></span></div><span class='banner_content'><span class='KJEBold'>Les meilleures calculatrices financi&egrave;res partout!</span><br>**CURRENT_DATE**</span><hr class='DinkytownHRHeaderBottom'><h1 class='KJEReportHeader DinkytownReportTitle'>**REPORT_TITLE**</h1></div></center>";
+}

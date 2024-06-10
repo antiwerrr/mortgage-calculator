@@ -1,0 +1,72 @@
+
+/*
+// CSS Classes  below can be populated and changed to modify your calculator deployment.
+// IMPORTANT: Do Not Modify the KJE.css file!  The KJE.css file is replaced during the update process
+// All CSS customization must be done in this file (you can override KJE.css classes)
+//
+// For information on customizing this file please see:
+// https://www.dinkytown.net/money/V3customize.html
+*/
+
+#KJEAllContent {
+}
+
+#KJECalculatorTable {
+}
+
+#KJETitle {
+}
+
+.KJECommandButton, .KJEMoreButton {
+}
+
+#KJEDefinitionText {
+    padding-left:0px;
+    margin-top: 1em;
+}
+
+#KJEDefinitionText p.KJEDefinition {
+    padding: 0px 10px 0px 10px;
+    font-size: 1.0em;
+    line-height: normal;
+}
+
+div.banner_title{
+    position: relative;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    line-height:2.5rem;
+    font-weight: bolder;
+    color: #006D38;
+}
+
+span.print_banner_content {
+    font-size: 1.0em;
+    line-height: normal;
+}
+
+h1.DinkytownReportTitle {
+    margin: 0px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    line-height:2.5rem;
+    font-weight: bolder;
+    color: #006D38;
+}
+
+
+hr.DinkytownHRHeaderTop {
+    margin: 0;
+}
+
+hr.DinkytownHRHeaderBottom {
+    margin: 0;
+    margin-top: 25px;
+}
+
